@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Portable Ultrasound",
+      "category": "diagnostic",
+      "price": "\u20b91,50,000",
+      "desc": "Lightweight portable ultrasound with high-resolution imaging.",
+      "image": "/images/ultrasound.svg"
+    },
+    {
+      "id": 2,
+      "name": "12-Lead ECG Machine",
+      "category": "diagnostic",
+      "price": "\u20b945,000",
+      "desc": "Accurate 12-lead ECG with digital storage.",
+      "image": "/images/ecg.svg"
+    },
+    {
+      "id": 3,
+      "name": "Surgical LED Lamp",
+      "category": "surgical",
+      "price": "\u20b935,000",
+      "desc": "High-intensity LED operating lamp with dimmer control.",
+      "image": "/images/lamp.svg"
+    },
+    {
+      "id": 4,
+      "name": "Pulse Oximeter",
+      "category": "home-care",
+      "price": "\u20b91,200",
+      "desc": "Compact fingertip pulse oximeter for SPO2 and pulse rate.",
+      "image": "/images/oximeter.svg"
+    },
+    {
+      "id": 5,
+      "name": "Surgical Gloves (Box)",
+      "category": "consumables",
+      "price": "\u20b9400",
+      "desc": "Powder-free nitrile gloves, 100 pieces per box.",
+      "image": "/images/gloves.svg"
+    },
+    {
+      "id": 6,
+      "name": "Digital Thermometer",
+      "category": "home-care",
+      "price": "\u20b9350",
+      "desc": "Fast-reading digital thermometer with memory.",
+      "image": "/images/thermometer.svg"
+    }
+  ]
+}
