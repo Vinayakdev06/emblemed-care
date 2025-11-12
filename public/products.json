@@ -2,51 +2,115 @@
   "products": [
     {
       "id": 1,
-      "name": "Portable Ultrasound",
-      "category": "diagnostic",
-      "price": "\u20b91,50,000",
-      "desc": "Lightweight portable ultrasound with high-resolution imaging.",
-      "image": "/images/ultrasound.svg"
+      "name": "EmbleMed Digital BP Monitor",
+      "category": "monitoring",
+      "price": "\u20B91,299",
+      "desc": "Experience precise blood pressure tracking with our intelligent cuff and one-touch operation.",
+      "image": "/images/EmbleMed Digital BP Monitor .jpg"
     },
     {
       "id": 2,
-      "name": "12-Lead ECG Machine",
+      "name": "EmbleMed Glucosure kit",
       "category": "diagnostic",
-      "price": "\u20b945,000",
-      "desc": "Accurate 12-lead ECG with digital storage.",
-      "image": "/images/ecg.svg"
+      "price": "\u20B9799",
+      "desc": "Accurate blood sugar testing kit with 10 strips and a lancet device.",
+      "image": "/images/EmbleMed Glucosure kit .jpg"
     },
     {
       "id": 3,
-      "name": "Surgical LED Lamp",
-      "category": "surgical",
-      "price": "\u20b935,000",
-      "desc": "High-intensity LED operating lamp with dimmer control.",
-      "image": "/images/lamp.svg"
+      "name": "EmbleMed Smart Nebulizer",
+      "category": "respiratory",
+      "price": "\u20B91,499",
+      "desc": "Whisper-quiet nebulizer designed for smooth, effective respiratory care.",
+      "image": "/images/EmbleMed Smart Nebulizer .jpg"
     },
     {
       "id": 4,
-      "name": "Pulse Oximeter",
+      "name": "EmbleMed InfraSense Thermometer",
       "category": "home-care",
-      "price": "\u20b91,200",
-      "desc": "Compact fingertip pulse oximeter for SPO2 and pulse rate.",
-      "image": "/images/oximeter.svg"
+      "price": "\u20B9999",
+      "desc": "Non-contact infrared sensor delivers instant, hygienic temperature readings.",
+      "image": "/images/EmbleMed InfraSense Thermometer .jpg"
     },
     {
       "id": 5,
-      "name": "Surgical Gloves (Box)",
-      "category": "consumables",
-      "price": "\u20b9400",
-      "desc": "Powder-free nitrile gloves, 100 pieces per box.",
-      "image": "/images/gloves.svg"
+      "name": "EmbleMed Digital Weigh Pro",
+      "category": "fitness",
+      "price": "\u20B91,099",
+      "desc": "Sleek, smart, and precise – redefine your daily wellness routine.",
+      "image": "/images/EmbleMed Digital Weigh Pro.jpg"
     },
     {
       "id": 6,
-      "name": "Digital Thermometer",
+      "name": "EmbleMed Shield Gloves (100 pcs)",
+      "category": "consumables",
+      "price": "\u20B9249",
+      "desc": "Premium, powder-free surgical gloves for confident care.",
+      "image": "/images/EmbleMed Shield Gloves (100 pcs).jpg"
+    },
+    {
+      "id": 7,
+      "name": "EmbleMed AirGuard Masks (50 pcs)",
+      "category": "consumables",
+      "price": "\u20B9149",
+      "desc": "3-layer protection with breathable comfort, ideal for everyday use.",
+      "image": "/images/EmbleMed AirGuard Masks (50 pcs).jpg"
+    },
+    {
+      "id": 8,
+      "name": "EmbleMed Oxygen+ Concentrator",
+      "category": "respiratory",
+      "price": "\u20B939,999",
+      "desc": "Advanced oxygen delivery with digital display and superior durability.",
+      "image": "/images/EmbleMed Oxygen+ Concentrator.jpg"
+    },
+    {
+      "id": 9,
+      "name": "EmbleMed Baby Steam Vaporizer",
       "category": "home-care",
-      "price": "\u20b9350",
-      "desc": "Fast-reading digital thermometer with memory.",
-      "image": "/images/thermometer.svg"
+      "price": "\u20B9599",
+      "desc": "Gentle steam comfort for infants – designed with mother’s care in mind.",
+      "image": "/images/EmbleMed Baby Steam Vaporizer.jpg"
+    },
+    {
+      "id": 10,
+      "name": "EmbleMed OrthoRelief Belt",
+      "category": "orthopedic",
+      "price": "\u20B9899",
+      "desc": "Advanced lumbar support engineered for posture and pain relief.",
+      "image": "/images/EmbleMed OrthoRelief Belt.jpg"
+    },
+    {
+      "id": 11,
+      "name": "EmbleMed PureGuard Sanitizer",
+      "category": "hygiene",
+      "price": "\u20B9149",
+      "desc": "Enriched hand sanitizer with 70% alcohol and soothing aroma.",
+      "image": "/images/EmbleMed PureGuard Sanitizer.jpg"
+    },
+    {
+      "id": 12,
+      "name": "EmbleMed HomeCare Premium Kit",
+      "category": "combo",
+      "price": "\u20B92,499",
+      "desc": "All-in-one wellness combo: BP Monitor, Glucometer, Thermometer & PPE set.",
+      "image": "/images/EmbleMed HomeCare Premium Kit.jpg"
+    },
+    {
+      "id": 13,
+      "name": "EmbleMed CardioCheck Portable ECG",
+      "category": "diagnostic",
+      "price": "\u20B927,999",
+      "desc": "Compact ECG system crafted for instant, precise cardiac monitoring.",
+      "image": "/images/EmbleMed CardioCheck Portable ECG.jpg"
+    },
+    {
+      "id": 14,
+      "name": "EmbleMed OxiCare Pulse Oximeter",
+      "category": "monitoring",
+      "price": "\u20B9749",
+      "desc": "Compact elegance with fast, clinical-grade SpO₂ and pulse results.",
+      "image": "/images/EmbleMed OxiCare Pulse Oximeter.jpg"
     }
   ]
 }

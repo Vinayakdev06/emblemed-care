@@ -14,7 +14,7 @@ export default function HeroSection() {
     autoplaySpeed: 3000,
     pauseOnHover: false,
     arrows: false,
-    cssEase: "ease-in-out", // smooth slide
+    cssEase: "ease-in-out",
   };
 
   const slides = [
@@ -27,22 +27,29 @@ export default function HeroSection() {
     <div className="relative mt-0 w-full">
       <Slider {...settings}>
         {slides.map((s, i) => (
-          <div key={i} className="relative w-full h-[60vh] md:h-[80vh]">
-            {/* ✅ Use object-cover for smooth slide */}
+          <div
+            key={i}
+            className="relative w-full h-[50vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] overflow-hidden"
+          >
+            {/* ✅ Responsive image scaling */}
             <img
               src={s}
               alt={`Slide ${i + 1}`}
-              className="w-full h-full object-cover object-center transition-all duration-700"
+className="w-full h-full object-contain sm:object-cover object-center md:object-[50%_30%] transition-all duration-700"
             />
 
-            {/* ✅ Optional: dark overlay for contrast */}
+            {/* ✅ Overlay gradient for better text visibility */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
 
-            {/* ✅ Optional caption */}
+            {/* ✅ Optional caption (fade animation ready) */}
             {/* <div className="absolute inset-0 flex items-center justify-center text-center text-white px-4">
-              <div className="animate-fadeIn">
-                <h2 className="text-4xl md:text-6xl font-bold">Coming Soon</h2>
-                <p className="mt-2 text-lg md:text-xl">Stay Tuned for January 2026</p>
+              <div className="animate-fade-in-up">
+                <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold drop-shadow-lg">
+                  Coming Soon
+                </h2>
+                <p className="mt-2 text-base sm:text-lg md:text-xl">
+                  Stay tuned for January 2026
+                </p>
               </div>
             </div> */}
           </div>
